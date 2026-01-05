@@ -135,18 +135,6 @@ const generateShortenButton = () => `
 `;
 
 const generateEmbedCodeSection = (baseUrl) => `
-    <div class="form-section">
-        <div class="form-section-title">嵌入到您的网站</div>
-        <p class="text-secondary small mb-2">复制以下 HTML 代码，将其粘贴到您的网站中。</p>
-        <div class="input-group">
-             <textarea id="embedCode" class="form-control" readonly rows="4"><iframe
-    src="${baseUrl}/embed"
-    style="width: 100%; height: 250px; border: none; border-radius: 8px;"
-    title="Subscription Converter"
-></iframe></textarea>
-            <button class="btn" type="button" onclick="copyToClipboard('embedCode')"><i class="fas fa-copy"></i></button>
-        </div>
-    </div>
 `;
 
 const generateRuleSetSelection = () => `
