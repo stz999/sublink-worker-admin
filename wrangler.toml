@@ -1,4 +1,4 @@
-name = "sublink-worker-admin"
+name = "mysublink"
 main = "src/index.js"
 compatibility_date = "2024-07-24"
 compatibility_flags = ["nodejs_compat"]
